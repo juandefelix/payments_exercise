@@ -20,7 +20,7 @@ class PaymentsController < ActionController::API
   end
 
   def show
-    render json: Loan.find(params[:id])
+    render json: Payment.find(params[:id])
   end
 
   private
