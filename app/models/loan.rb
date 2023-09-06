@@ -5,12 +5,6 @@ class Loan < ActiveRecord::Base
     funded_amount - payment_amounts
   end
 
-  def add_payment!(amount, date)
-    return false if amount > outstanding_balance
-
-    Payment.create(amount: amount, date: date, loan: self)
-  end
-
   private
 
   def payment_amounts
