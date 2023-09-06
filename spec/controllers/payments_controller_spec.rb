@@ -86,10 +86,3 @@ RSpec.describe PaymentsController, type: :controller do
     end
   end
 end
-
-
-
-
-    # it 'should update the outstanding balance' do
-    #   expect(loan.reload.outstanding_balance).to eq 0
-    # end
