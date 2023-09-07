@@ -1,6 +1,7 @@
-# Set up
+# Notes
 
-In your terminal, run `bunde install`. Some additional gems have been added to the original Gemfile.
+If you want to run this applications, first run `bunde install`. Some additional gems have been added to the original Gemfile.
+Additional model and controller RSpec test have been added.
 
 # Payments Exercise
 
